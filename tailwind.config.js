@@ -17,6 +17,9 @@ module.exports = {
         current: 'currentColor',
 
         d: {
+           facebook: '#3b5998',
+           youtube: '#bb0000',
+           twitter: '#55acee',
            grey: '#252525',
            mirage: '#151923',
            tuna: '#34353D',
