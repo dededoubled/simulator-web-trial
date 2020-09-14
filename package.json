@@ -5,10 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "csstest": "postcss tailwind.css -o src/assets/css/style.css --watch"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "postcss": "^7.0.32",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.9",
     "vue": "^2.6.11"
   },
   "devDependencies": {
