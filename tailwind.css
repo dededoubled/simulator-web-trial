@@ -11,4 +11,19 @@
    .contact-box:hover {
       @apply text-white border-0;
    }
+   .dropdown-menu:before{
+      content: "";
+      @apply block absolute;
+      top: -45px;
+      right: 0;
+      left: 0;
+      height: 45px;
+   }
+   .dropdown-menu>li>a{
+      @apply block py-2 pl-2 pr-12 text-white;
+   }
+   .dropdown-menu>li>a:hover {
+      @apply text-d-niagara;
+   }
+   
 }
