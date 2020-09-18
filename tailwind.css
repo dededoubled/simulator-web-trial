@@ -5,8 +5,11 @@
 @tailwind utilities;
 
 @layer base {
+   body {
+      @apply bg-d-mirage;
+   }
    .contact-box {
-      @apply flex items-center w-8 h-8 mr-3 rounded-full border-2 border-gray-800 text-gray-800;
+      @apply flex items-center w-8 h-8 mr-3 rounded-full border-2 border-d-niagara text-white;
    }
    .contact-box:hover {
       @apply text-white border-0;

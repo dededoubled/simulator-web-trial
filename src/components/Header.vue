@@ -4,7 +4,7 @@
          <a href="#">
             <img src="https://res.cloudinary.com/dededoubled/image/upload/v1586530715/doubled.png" alt="" class="w-10 sm:w-16">
          </a>
-         <div class="sm:flex sm:flex-row hidden font-montserrat uppercase"> 
+         <div class="sm:flex sm:flex-row hidden font-montserrat capitalize"> 
             <ul class="flex">
                <li class="dropdown relative inline-block">
                   <a href="#" class="text-lg px-6 py-1 font-semibold text-white">list game +</a>
@@ -56,3 +56,9 @@ export default {
    // }
 }
 </script>
+
+<style scope>
+   .dropdown>ul {
+      z-index: 2;
+   }
+</style>

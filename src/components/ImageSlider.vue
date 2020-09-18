@@ -1,5 +1,5 @@
 <template>
-   <div class="md:max-w-6xl mx-auto mt-8 px-4">
+   <div class="md:max-w-6xl mx-auto mt-6 px-4">
       <agile :dots="true" :infinite="true" :navButtons="false">
          <div class="slide">
             <img src="../assets/slide-1.jpg" alt="">
@@ -9,6 +9,12 @@
          </div>
          <div class="slide">
             <img src="../assets/slide-3.jpg" alt="">
+         </div>
+         <div class="slide">
+            <img src="../assets/slide-4.jpg" alt="">
+         </div>
+         <div class="slide">
+            <img src="../assets/slide-5.jpg" alt="">
          </div>
          <template slot="prevButton">
             <font-awesome-icon :icon="icoArrowLeft"/>
@@ -43,6 +49,7 @@ export default {
 <style scope>
    .agile__list {
       height: 420px;
+      @apply rounded-md border-b-4 border-d-niagara;
    }
    .agile__track {
       height: inherit;
@@ -54,7 +61,7 @@ export default {
    .agile__actions {
       @apply absolute min-w-full;
       /* top: 45%; */
-      top: 95%
+      top: 90%
    }
    .agile__nav-button {
       @apply font-semibold text-3xl text-d-white;
@@ -69,10 +76,9 @@ export default {
    .agile__dots {
       @apply absolute text-d-white;
       top: 470%;
-      left: 45%;
    }
    .agile__dot button {
-      @apply w-6 h-1 bg-white mx-3 rounded-full;
+      @apply w-6 h-1 bg-white mx-1 rounded-sm;
    }
    .agile__dot--current button {
       @apply bg-d-niagara;

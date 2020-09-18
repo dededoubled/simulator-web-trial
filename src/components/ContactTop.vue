@@ -18,7 +18,7 @@
          </li>
       </ul>
       <ul class="flex">
-         <li class="px-3 font-semibold font-montserrat">
+         <li class="px-3 font-semibold font-montserrat text-d-white capitalize">
             masuk
             <font-awesome-icon :icon="['fas', 'sign-in-alt']"></font-awesome-icon>
          </li>
