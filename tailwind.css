@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 
-@layer components {
+@layer base {
    .contact-box {
       @apply flex items-center w-8 h-8 mr-3 rounded-full border-2 border-gray-800 text-gray-800;
    }
@@ -29,5 +29,4 @@
    .dropdown-menu>li>a:hover {
       @apply text-d-niagara;
    }
-   
 }
