@@ -11,6 +11,10 @@
    .contact-box:hover {
       @apply text-white border-0;
    }
+   .dropdown:hover .dropdown-menu {
+      @apply visible;
+      
+   }
    .dropdown-menu:before{
       content: "";
       @apply block absolute;
