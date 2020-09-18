@@ -4,6 +4,10 @@
     <app-header></app-header>
     <app-image-slider></app-image-slider>
     <app-mod-panel></app-mod-panel>
+    <app-gap-component 
+      title1="vehicle"
+      title2="showchase"
+    />
   </div>
 </template>
 
@@ -12,13 +16,15 @@ import ContactTop from './components/ContactTop.vue'
 import Header from './components/Header.vue'
 import ImageSlider from './components/ImageSlider.vue'
 import ModPanel from './components/ModPanel.vue'
+import GapComponent from './components/GapCompnent.vue'
 
 export default {
   components: {
     appContactTop: ContactTop,
     appHeader: Header,
     appImageSlider: ImageSlider,
-    appModPanel: ModPanel
+    appModPanel: ModPanel,
+    appGapComponent: GapComponent
   }
 }
 </script>

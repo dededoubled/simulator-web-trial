@@ -8,7 +8,7 @@
             <ul class="flex">
                <li class="dropdown relative inline-block">
                   <a href="#" class="text-lg px-6 py-1 font-semibold text-white">list game +</a>
-                  <ul class="dropdown-menu invisible absolute min-w-0 mt-10 py-4 bg-black text-white font-semibold font-montserrat whitespace-no-wrap bg-opacity-75 rounded-md  border-b-4 border-d-niagara">
+                  <ul class="dropdown-menu invisible absolute min-w-0 mt-10 py-4 pl-4 bg-black text-white font-semibold font-montserrat whitespace-no-wrap bg-opacity-75 rounded-md  border-b-4 border-d-niagara">
                      <li>
                         <a href="#">UK Truck Simulator</a>
                      </li>
@@ -20,8 +20,22 @@
                      </li>
                   </ul>
                </li>
-               <li>
+               <li class="dropdown relative inline-block">
                   <a href="#" class="text-lg px-6 py-1 font-semibold text-white">mods +</a>
+                  <ul class="dropdown-menu invisible absolute min-w-0 mt-10 py-4 pl-4 pr-24 bg-black text-white font-semibold font-montserrat whitespace-no-wrap bg-opacity-75 rounded-md  border-b-4 border-d-niagara">
+                     <li>
+                        <a href="#">maps</a>
+                     </li>
+                     <li>
+                        <a href="#">vehicle</a>
+                     </li>
+                     <li>
+                        <a href="#">livery</a>
+                     </li>
+                     <li>
+                        <a href="#">accesories</a>
+                     </li>
+                  </ul>
                </li>
                <li>
                   <a href="#" class="text-lg px-6 py-1 font-semibold text-white">kontak</a>
