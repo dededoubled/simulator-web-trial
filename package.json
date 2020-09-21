@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "csstest": "postcss tailwind.css -o src/assets/css/style.css --watch"
+    "tailwindcomp": "postcss tailwind.css -o src/assets/css/style.css --watch"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

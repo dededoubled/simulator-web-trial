@@ -8,6 +8,7 @@
       title1="vehicle"
       title2="showchase"
     />
+    <app-vehicle-showcase></app-vehicle-showcase>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Header from './components/Header.vue'
 import ImageSlider from './components/ImageSlider.vue'
 import ModPanel from './components/ModPanel.vue'
 import GapComponent from './components/GapCompnent.vue'
+import VehicleShowcase from './components/VehicleShowcase.vue'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     appHeader: Header,
     appImageSlider: ImageSlider,
     appModPanel: ModPanel,
-    appGapComponent: GapComponent
+    appGapComponent: GapComponent,
+    appVehicleShowcase: VehicleShowcase
   }
 }
 </script>

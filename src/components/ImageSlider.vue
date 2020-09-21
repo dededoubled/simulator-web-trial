@@ -1,6 +1,6 @@
 <template>
    <div class="md:max-w-6xl mx-auto mt-6 px-4">
-      <agile :dots="true" :infinite="true" :navButtons="false">
+      <agile :autoplay="true" :dots="true" :infinite="true" :navButtons="false" :speed="1000">
          <div class="slide">
             <!-- <img src="../assets/slide-1.jpg" alt=""> -->
             <img src="../assets/ojpj-slider-img-1.png" alt="">
