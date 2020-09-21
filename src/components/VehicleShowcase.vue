@@ -1,10 +1,10 @@
 <template>
    <div class="flex flex-col relative md:max-w-6xl mx-auto mt-12 px-4">
       <div class="car__image_wrapper">
-         <img class="mx-auto mt-20" src="../assets/bmx-x3/biru samping.png" alt="">
+         <img class="mx-auto mt-20" src="../assets/bmx-x3/merah belakang.png" alt="">
       </div>
       <div class="nav__info flex flex-col absolute">
-         <!-- <p class="pl-20 font-montserrat text-4xl font-semibold text-white">BMW X3 M</p> -->
+         <p class="pl-48 font-montserrat text-4xl font-semibold text-white">BMW X3 M</p>
          <p class="font-montserrat text-lg font-semibold text-white">Specification</p>
          <div class="nav__info-each flex flex-col min-w-0 mt-6">
             <div>
@@ -78,7 +78,6 @@ export default {
 
    .nav__info {
       height: 100%;
-      top: 50px;
    }
    .nav__info-each > div {
       @apply py-2;
