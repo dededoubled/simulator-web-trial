@@ -2,19 +2,24 @@
    <div class="md:max-w-6xl mx-auto mt-6 px-4">
       <agile :dots="true" :infinite="true" :navButtons="false">
          <div class="slide">
-            <img src="../assets/slide-1.jpg" alt="">
+            <!-- <img src="../assets/slide-1.jpg" alt=""> -->
+            <img src="../assets/ojpj-slider-img-1.png" alt="">
          </div>
          <div class="slide">
-            <img src="../assets/slide-2.jpg" alt="">
+            <!-- <img src="../assets/slide-2.jpg" alt=""> -->
+            <img src="../assets/ojpj-slider-img-2.png" alt="">
          </div>
          <div class="slide">
-            <img src="../assets/slide-3.jpg" alt="">
+            <!-- <img src="../assets/slide-3.jpg" alt=""> -->
+            <img src="../assets/ojpj-slider-img-3.png" alt="">
          </div>
          <div class="slide">
-            <img src="../assets/slide-4.jpg" alt="">
+            <!-- <img src="../assets/slide-4.jpg" alt=""> -->
+            <img src="../assets/ojpj-slider-img-4.png" alt="">
          </div>
          <div class="slide">
-            <img src="../assets/slide-5.jpg" alt="">
+            <!-- <img src="../assets/slide-5.jpg" alt=""> -->
+            <img src="../assets/ojpj-slider-img-5.png" alt="">
          </div>
          <template slot="prevButton">
             <font-awesome-icon :icon="icoArrowLeft"/>
@@ -78,7 +83,7 @@ export default {
       top: 470%;
    }
    .agile__dot button {
-      @apply w-6 h-1 bg-white mx-1 rounded-sm;
+      @apply w-6 h-1 bg-gray-800 mx-1 rounded-sm;
    }
    .agile__dot--current button {
       @apply bg-d-niagara;
